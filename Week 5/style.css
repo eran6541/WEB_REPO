@@ -6,3 +6,11 @@ body{
 p {
   color: rgb(100,100,100);
 }
+
+#second{
+  font-weight:bold;
+}
+
+h1{
+  color: black !important;
+}
