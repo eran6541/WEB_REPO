@@ -1,0 +1,31 @@
+body{
+  background-color: #EDF6F9;
+}
+h1{
+  text-align: center;
+  font-family: courier;
+  font-size: 50px;
+  color: #343A1A;
+}
+
+p{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #04080F;
+}
+
+
+h2{
+  text-align:center;
+  font-family: courier;
+  font-size: 25px;
+  color: #343A1A;
+}
+
+ul{
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 15px;
+  color: #04080F;
+}
