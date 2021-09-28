@@ -1,0 +1,21 @@
+p{
+  color: pink;
+  font-family: helvetica
+}
+
+h1,h2{
+  font-family: "Oswald";
+}
+
+#hero{
+  width:100vw;
+  height:60vw;
+  overflow: hidden;
+}
+
+#hero img{
+  width:100vw;
+  position: relative;
+  bottom: 300px;
+
+}
