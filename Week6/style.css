@@ -7,15 +7,45 @@ h1,h2{
   font-family: "Oswald";
 }
 
+h2
+
 #hero{
   width:100vw;
   height:60vw;
   overflow: hidden;
+  margin: 0px;
+  padding: 0px;
 }
 
 #hero img{
   width:100vw;
   position: relative;
   bottom: 300px;
+  right: 200px;
+}
 
+button{
+  background-color: #586A6A;
+  font-family: "Oswald";
+  font-size: 30px;
+  padding: 7px 20px;
+  margin: 10px;
+
+
+}
+button:active{
+  background-color: #586A6A;
+  color: white;
+}
+a:link{
+  color:blue;
+}
+
+button:hover{
+  color: pink;
+
+}
+
+a:active{
+  color:green;
 }
