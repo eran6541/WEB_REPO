@@ -18,7 +18,7 @@ body{
 }
 #captions{
   font-family: serif;
-  font-size: 35px
+  font-size: 25px
   color:#36453B;
 }
 #maintext{
@@ -26,19 +26,7 @@ body{
   font-size: 15px;
   color: #36453B;
 }
-button{
-  font-family: serif;
-  font-size: 15px;
-  background-color: #F1ECDA;
-  border-color:#36453B;
-  color: #36453B;
-}
-button:hover{
-  border-color: white;
-}
-button:visited{
-  color: #BFD7B5;
-}
+
 a:link{
   color: #36453B;
   background-color: #F1ECDA;
