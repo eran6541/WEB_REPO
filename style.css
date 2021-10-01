@@ -15,9 +15,14 @@ body{
   font-size: 75px;
   color: #36453B;
 }
-#caption1{
+#captions{
   font-family: serif;
   font-size: 35px;
+  color:#36453B;
+}
+#captions2{
+  font-family: serif;
+  font-size: 30px;
   color:#36453B;
 }
 #maintext{
