@@ -18,7 +18,7 @@ body{
 }
 #captions{
   font-family: serif;
-  font-size: 25px
+  font-size: 35px;
   color:#36453B;
 }
 #maintext{
@@ -28,12 +28,16 @@ body{
 }
 
 a:link{
+  font-size: 35px;
   color: #36453B;
-  background-color: #F1ECDA;
-}
-a:hover{
-  color: white;
 }
 a:visited{
   color: #BFD7B5;
+}
+a:active{
+  color: white;
+}
+a:hover{
+  font-size: 50px;
+  color: white;
 }
