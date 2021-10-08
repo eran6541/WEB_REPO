@@ -1,51 +1,78 @@
-p{
-  color: pink;
-  font-family: helvetica
+body{
+  margin:0px;
+  padding:0px;
 }
-
-h1,h2{
-  font-family: "Oswald";
+h1{
+  font-family: "Playfair Display";
 }
-
-h2
-
+h2{
+  font-family: "Playfair Display";
+  font-size: 50px;
+  padding:0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
 #hero{
-  width:100vw;
-  height:60vw;
+  width: 98vw;
+  height: 55vw;
   overflow: hidden;
-  margin: 0px;
-  padding: 0px;
+  margin: 15px;
+  padding:5px;
 }
-
 #hero img{
-  width:100vw;
+  width: 100vw;
   position: relative;
-  bottom: 300px;
-  right: 200px;
+  bottom: 400px;
 }
-
-button{
-  background-color: #586A6A;
-  font-family: "Oswald";
-  font-size: 30px;
-  padding: 7px 20px;
-  margin: 10px;
-
-
-}
-button:active{
-  background-color: #586A6A;
+#hero h1{
+  z-index: 1;
+  position: relative;
+  font-size: 6vw;
+  top: 8vh;
   color: white;
+  padding-left: 25px;
 }
-a:link{
-  color:blue;
-}
-
-button:hover{
-  color: pink;
-
+#first{
+  margin-left: 25px;
+  margin-right: 40vw;
 }
 
-a:active{
-  color:green;
+#second{
+  margin-left: 25px;
+  margin-right: 40vw;
+}
+#mybutton{
+  background-color: #84230B;
+  font-family: "Playfair Display";
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 8px 20px;
+  float:left;
+  bottom: 300px;
+}
+#mybutton:hover{
+  background-color:#D8F6FD;
+  color: black;
+}
+#mybutton:active{
+  color: black;
+}
+#mybutton2{
+  background-color: #84230B;
+  font-family: "Playfair Display";
+  color: white;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 8px 20px;
+  float:left;
+  bottom: 300px;
+  margin-left: 20px;
+}
+#mybutton2:hover{
+  background-color:#D8F6FD;
+  color: black;
+}
+#mybutton2:active{
+  color:black;
 }

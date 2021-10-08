@@ -1,55 +1,40 @@
 <!DOCTYPE html>
-<html lang="eng"
+<html lang="eng">
 <head>
-  <title>Week 6</title>
-  <link rel="stylesheet" href="style.css>">
-  <link rel="stylesheet" href="https://fonts.google.com/specimen/Oswald#pairings">
+  <title>Gas Station</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://fonts.google.com/specimen/Playfair+Display">
 </head>
-
 <body>
-
   <section id="hero">
-    <img alt="person hiking" src="https://images.unsplash.com/photo-1458442310124-dde6edb43d10?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fGhpa2luZ3xlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60">
+    <h1 id="herotext">Fuel Up</h1>
+    <img alt="gas station" src="https://images.unsplash.com/photo-1536822919364-de5612490f1f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=3871&q=80" id="heroimg">
   </section>
-  <section id="one">
-    <h2> This is my first section</h2>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-      nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-       Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
+  <section id="first">
+      <h2>Pay the Price</h2>
+      <p>Most consumers use gasoline in cars, light trucks, and motorcycles, but they also use it in small aircraft, boats and other watercraft, and landscaping and construction equipment.
+        Some of the environmental laws in the United States focus on reducing pollution from these sources. Burning a gallon of gasoline (that does not contain ethanol) produces about 19.5
+        pounds of carbon dioxide (CO2).The Clean Air Act (the Act) seeks to reduce air pollution in the United States. Specifically, the Act (first passed in 1970) and its amendments require
+        engines and fuels to produce less air pollution, among other requirements, to reduce air pollution from gasoline use.(Information provided by eia.gov)</P>
+  </section>
+  <section id="second">
+    <button id="mybutton">Unleaded</button>
+    <button id="mybutton2">Premium</button>
+  </section>
 
-    <section id="two">
-      <h2>This is my second section</h2>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-        voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-    </section>
-
-    <section id="three">
-      <h2>This section contains a button</h2>
-      <button id="mybutton">Click Me</button>
-      <button id="mybutton2">Click Me</button>
-    </section>
-
-    <script>
+  <script>
     console.log("javascript working");
-      document.getElementById("mybutton").addEventListener("click",function(){alert("you pushed the button!";)});
-      document.getElementById("mybutton2").addEventListener("click",function(){alert("you pushed the button!")});
-      function buttonClicked(){
-        alert("you pushed the button!")
-        document.getElementById("herotext").innerHTML = "You are not welcome!";
+    document.getElementById("mybutton").addEventListener("click", buttonOne);
+    document.getElementById("mybutton2").addEventListener("click", buttonTwo);
+    document.getElementById("hero").addEventListener("click", heroClick);
 
-      }
-      function heroClicked(){
-        alert("you clicked the hero!");
-      }
-      function buttoneOne(){
-        document.getElementById("first").style.color = "red";
-      }
-
-    </script>
-
-    </body>
-    </html>
+    function buttonOne(){
+      alert("You pay $3.15 per gallon and the price of a polluted future.");
+    }
+    function buttonTwo(){
+      alert("You pay $3.71 per gallon and the price of unclean air.");
+    }
+    function heroClick(){
+      alert("You clicked the image");
+    }
+  </script>

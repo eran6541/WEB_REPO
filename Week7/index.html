@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<title>Quote Machine</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<section>
+<h1 id="qtext" >Welcome to the Quote Machine, click button to get a quote.</h1>
+<button id= "newquote">New Quote</button>
+</section>
+
+<script>
+    const quotes = ["Even if I knew that tomorrow the world would go to pieces, I would still plant my apple tree.","Happiness resides not in possessions, and not in gold, happiness dwells in the soul."];
+    let quotecount = 0;
+
+    document.getElementById("newquote").addEventListener("click",button);
+
+    function buttonClicked(){
+      console.log(quotes[quotecount]);
+      document.getElementById("qtext").innerHTML = quotes[quotecount];
+      if(quotecount>6){
+        quotecount = 0;
+      }else{
+      quotecount ++;
+    }
+
+    }
+  </script>
+
+
+
+
+
+</body>
+</html>
