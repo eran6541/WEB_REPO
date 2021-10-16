@@ -1,24 +1,40 @@
-section{
-  background-color: #6A8EAE;
-  margin: 30vh 20vw;
-  padding: 8vh 10vw 10vh 10vw;
-  border-radius: 8px;
+body{
+  background-image:url("flowerbg.jpg");
 }
-
+h1{
+  text-align: center;
+}
+#inside{
+  background-color: #BB1136;
+  margin: 20vh 20vw;
+  padding: 8vh 10vw 10vh 10vw;
+  border-radius: 9px;
+}
 button{
   border-radius: 8px;
   padding: 1vh 5vw;
   float: right;
   margin-top: 1vh;
   color: black;
+  font-family: "Roboto";
+
 }
 button:hover{
-  border: white solid 1px;
+  background-color: #F24940;
+  color: white;
 }
 button:active{
-  color: grey;
+  color: #4B0716;
 }
-
-h1{
-  color: white;
+#titletext{
+  z-index: 1;
+  position: relative;
+  font-size: 18vh;
+  top: 18vh;
+  font-family: "Permanent Marker";
+}
+#qtext{
+  font-family: "Roboto";
+  font-size: 25px;
+  color: black;
 }

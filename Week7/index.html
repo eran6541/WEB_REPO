@@ -3,23 +3,32 @@
 <head>
 <title>Quote Machine</title>
 <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Permanent+Marker">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=Roboto">
 </head>
 <body>
-<section>
-<h1 id="qtext" >Welcome to the Quote Machine, click button to get a quote.</h1>
-<button id= "newquote">New Quote</button>
+
+<section id="header">
+  <h1 id="titletext">Frida Kahlo</h1>
 </section>
 
+<section id="inside">
+<h2 id="qtext" >The Mexican surrealist artist once said:</h2>
+<button id= "newquote">Click</button>
+</section>
+
+
 <script>
-    const quotes = ["Even if I knew that tomorrow the world would go to pieces, I would still plant my apple tree.","Happiness resides not in possessions, and not in gold, happiness dwells in the soul."];
+    const quotes = ["Feet, what do I need you for when I have wings to fly?","There have been two great accidents in my life. One was the trolley, and the other was Diego. Diego was by far the worst.","They thought I was a Surrealist, but I wasn't. I never painted dreams. I painted my own reality.",
+     "I am my own muse. I am the subject I know best. The subject I want to better.","I leave you my portrait so that you will have my presence all the days and nights that I am away from you."];
     let quotecount = 0;
 
-    document.getElementById("newquote").addEventListener("click",button);
+    document.getElementById("newquote").addEventListener("click",buttonClicked);
 
     function buttonClicked(){
       console.log(quotes[quotecount]);
       document.getElementById("qtext").innerHTML = quotes[quotecount];
-      if(quotecount>6){
+      if(quotecount>=4){
         quotecount = 0;
       }else{
       quotecount ++;

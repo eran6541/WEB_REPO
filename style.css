@@ -1,3 +1,4 @@
+
 body{
   background-color: #F1ECDA;
 }
@@ -30,9 +31,8 @@ body{
   font-size: 15px;
   color: #36453B;
 }
-
-a:link{
-  font-size: 35px;
+h3{
+  font-size: 35;
   color: #36453B;
 }
 a:visited{
