@@ -1,51 +1,101 @@
-Body{
+body{
   background-image: url("floral.jpg");
-  background-repeat: no-repeat;
+  background-repeat:repeat-y;
   background-size: cover;
 }
 #header{
   font-family: bookmania, serif;
   font-weight: 300;
+  bottom: 30%;
   font-style: normal;
   font-size: 3vw;
   text-align: center;
 }
 h2{
-  text-align:center;
-  margin-top: auto;
-  font-size: 20px;
   font-family: acumin-pro,sans-serif;
-  font-weight: 700;
-  font-style: normal;
+  font-size: 20px;
   color: white;
+  margin: 10px;
+  text-align: center;
+  margin-top: 50px;
 }
-#sunday{
-  background-color: #DBA58A;
-  margin:auto;
-  padding: 8vh 10vw 10vh 8vw;
-  border-radius: 9px;
-  max-width: 15vw;
-  height: .5vh;
-  align-content: center;
-}
-#click{
-  border-radius: 8px;
-  padding: 1vh 2vw;
+p{
+  font-family: acumin-pro,sans-serif;
+  font-size: 15px;
+  color: black;
   position: absolute;
-  top: 40%;
-  left: 70%;
+  top: 23%;
+  left: 33%;
+
+}
+button{
+  border-radius: 8px;
+  padding: 1vh 1vw;
   margin-top: 1vh;
   background-color: #996752;
   color: white;
   font-family: acumin-pro,sans-serif;
   font-weight: 700;
   font-style: normal;
+  float:right;
 }
-#click:hover{
+button:hover{
   background-color: #381A10;
   color: white;
 }
-#click:active{
+button:active{
   background-color: #81331C;
   color: white;
+}
+.days{
+  padding: 10px;
+  width: 500px;
+  display: flex;
+  flex-grow: 5;
+  flex-shrink: 2;
+  flex-direction: column;
+  position: absolute;
+  left: 35%;
+}
+.sunday{
+  background-color: #DBA58A;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.monday{
+  background-color: #DBA58A;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.tuesday{
+  background-color: #DBA58A;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.wednesday{
+  background-color: #DBA58A;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.thursday{
+  background-color: #DBA58A;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.friday{
+  background-color: #DBA58A;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
+}
+.saturday{
+  background-color: #DBA58A;
+  margin: 15px;
+  padding: 10px;
+  border-radius: 8px;
 }
