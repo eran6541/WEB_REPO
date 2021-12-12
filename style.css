@@ -1,65 +1,59 @@
 
 body{
-  background-color: #F1ECDA;
+  background-image: url("assets/cloud.jpeg");
+  margin: 0;
+  padding: 0;
 }
-.pics{
-  overflow:hidden;
-  margin:10px;
-  padding: 30px;
-  display:flex;
-  flex-grow: 1;
-  flex-direction:row-reverse;
-  flex-flow: wrap;
-
+#hero{
+  width:100vw;
 }
-img{
-  max-width: 100%;
-  max-height: 300px;
-  vertical-align: bottom;
-}
-.one{
-  height: 300px;
-}
-.two{
-  height: 300px;
-}
-
-.four{
-  height: 300px;
-}
-.five{
-  height: 300px;
-}
-
-h1{
-  font-size: 75px;
-  font: serif;
-  color: black;
-  text-align: center;
+#hero h1{
+  z-index: 1;
+  font-family: lust-didone,serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 7vw;
+  padding-left: 30px;
+  color: white;
 }
 h2{
   font-size: 25px;
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: bold;
+  padding-left: 30px;
+  color: white;
 }
-.maintext{
-  margin: 30px;
-
-
+.body{
+  font-size: 15px;
+  font-family: futura-pt,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  padding-left: 30px;
+  color: white;
+  display: block;
+  margin-right: 30vw;
 }
-.assignments{
-  margin: 30px;
+#bar{
+  position: relative;
 }
+nav{
+  display:flex;
+  width: 40vw;
+  justify-content: left;
+  flex-wrap: nowrap;
+  flex-direction: row;
 }
-h3{
+nav a{
+  margin-left: 30px;
+  color: white;
   font-size: 35;
-  color: black;
+  font-family: lust-didone,serif;
+  font-weight: 700;
+  font-style: normal;
+  bottom: 20vh;;
 }
-a:visited{
-  color: #BFD7B5;
-}
-a:active{
-  color: white;
-}
-a:hover{
-  font-size: 50px;
-  color: white;
+nav a:hover{
+  opacity: 80%;
+  font-size: 20px;
 }
